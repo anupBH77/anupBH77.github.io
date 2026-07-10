@@ -1,0 +1,619 @@
+{
+  "metadata": {
+    "title": "Anup Bhaumik | Full Stack Gen AI Developer",
+    "description": "Full Stack Developer with 2.5+ years of experience building scalable web applications, AI-powered SaaS products, and CRM systems.",
+    "keywords": [
+      "Full Stack Developer",
+      "React.js",
+      "Node.js",
+      "TypeScript",
+      "Python",
+      "Generative AI",
+      "FastAPI",
+      "PostgreSQL",
+      "Next.js"
+    ],
+    "author": "Anup Bhaumik",
+    "language": "en",
+    "ogTitle": "Anup Bhaumik | Full Stack Gen AI Developer Portfolio",
+    "ogDescription": "Specialized in developing Generative AI-integrated applications and integrating LLM-powered workflows.",
+    "ogImage": "/og-image.jpg",
+    "canonicalUrl": "https://github.com/anupbhaumik"
+  },
+  "theme": {
+    "defaultMode": "dark",
+    "accent": "cyan",
+    "animations": true,
+    "cursorEffect": true,
+    "backgroundEffect": "grid"
+  },
+  "sectionOrder": [
+    "hero",
+    "about",
+    "skills",
+    "experience",
+    "projects",
+    "education",
+    "personal",
+    "contact"
+  ],
+  "navigation": {
+    "logo": "Anup Bhaumik",
+    "logoType": "text",
+    "showResumeButton": true,
+    "resumeLink": "/src/assets/anup.pdf"
+  },
+  "hero": {
+    "enabled": true,
+    "name": "Anup Bhaumik",
+    "title": "Full Stack Gen AI Developer",
+    "rotatingRoles": [
+      "Full Stack Developer",
+      "Python & JavaScript Specialist",
+      "AI Application Developer",
+      "CRM Systems Engineer"
+    ],
+    "description": "I build scalable web applications, AI-powered SaaS products, browser extensions, and production-grade CRM systems. Specialized in developing Generative AI-integrated applications and integrating LLM-powered workflows into real-world products.",
+    "availabilityStatus": "available",
+    "availabilityText": "Open to new opportunities",
+    "primaryCta": {
+      "text": "View My Work",
+      "link": "#projects"
+    },
+    "secondaryCta": {
+      "text": "Get in Touch",
+      "link": "#contact"
+    },
+    "resumeButton": {
+      "text": "Download Resume",
+      "link": "/src/assets/anup.pdf"
+    },
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/anupbh77",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/anup-bhaumik/",
+        "icon": "linkedin"
+      }
+    ]
+  },
+  "about": {
+    "enabled": true,
+    "heading": "About Me",
+    "subtitle": "Passionate engineer with a track record of building production-grade applications",
+    "cards": [
+      {
+        "type": "text",
+        "title": "Who I Am",
+        "content": "A results-driven Full Stack Developer with 2.5+ years of experience building scalable web applications. I specialize in React.js, FastAPI, Node.js, and integrating Open AI and Gemini API workflows into SaaS platforms and CRM systems.",
+        "gridSpan": "large"
+      },
+      {
+        "type": "stat",
+        "title": "Experience",
+        "content": "Years of professional development experience across startups",
+        "stat": {
+          "label": "Years Experience",
+          "value": 2.5,
+          "suffix": "+",
+          "icon": "calendar"
+        },
+        "gridSpan": "small"
+      },
+      {
+        "type": "stat",
+        "title": "Projects",
+        "content": "Successfully delivered projects ranging from AI SaaS platforms to enterprise CRMs",
+        "stat": {
+          "label": "Projects Delivered",
+          "value": 10,
+          "suffix": "+",
+          "icon": "briefcase"
+        },
+        "gridSpan": "small"
+      },
+      {
+        "type": "focus",
+        "title": "Current Focus",
+        "content": "Building Generative AI-integrated applications, automating data scraping pipelines, and designing scalable CRM synchronizations.",
+        "gridSpan": "medium"
+      },
+      {
+        "type": "location",
+        "title": "Location",
+        "content": "Dehradun, India — Open to Remote",
+        "gridSpan": "small"
+      },
+      {
+        "type": "tech",
+        "title": "Favorite Stack",
+        "content": "Technologies I enjoy working with the most",
+        "technologies": [
+          "React.js",
+          "FastAPI",
+          "Node.js",
+          "PostgreSQL",
+          "Docker"
+        ],
+        "gridSpan": "medium"
+      },
+      {
+        "type": "learning",
+        "title": "Learning Goals",
+        "content": "Deepening expertise in advanced Prompt Engineering, AI Pipeline Design, and distributed message brokers like RabbitMQ and Celery.",
+        "gridSpan": "medium"
+      },
+      {
+        "type": "philosophy",
+        "title": "Engineering Philosophy",
+        "content": "Optimize for performance, such as reducing data scraping times by 75%. Build end-to-end scalable and maintainable solutions for fast-paced startup environments.",
+        "gridSpan": "large"
+      }
+    ]
+  },
+  "skills": {
+    "enabled": true,
+    "heading": "Skills & Technologies",
+    "subtitle": "Technologies and tools I use to build modern applications",
+    "categories": [
+      {
+        "name": "Frontend",
+        "icon": "layout",
+        "skills": [
+          { "name": "React.js", "icon": "react", "featured": true },
+          { "name": "Next.js", "icon": "nextdotjs", "featured": true },
+          {
+            "name": "TypeScript",
+            "icon": "typescript",
+            "featured": true
+          },
+          {
+            "name": "JavaScript (ES6+)",
+            "icon": "javascript",
+            "featured": true
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "tailwindcss",
+            "featured": true
+          },
+          { "name": "Redux", "icon": "redux" },
+          { "name": "Astro", "icon": "astro" },
+          { "name": "Shadcn/UI", "icon": "shadcnui" },
+          { "name": "TanStack Table", "icon": "table" }
+        ]
+      },
+      {
+        "name": "Backend",
+        "icon": "server",
+        "skills": [
+          { "name": "Node.js", "icon": "nodedotjs", "featured": true },
+          { "name": "Express.js", "icon": "express" },
+          { "name": "FastAPI", "icon": "fastapi", "featured": true },
+          { "name": "NestJS", "icon": "nestjs", "featured": true },
+          { "name": "Python", "icon": "python", "featured": true },
+          { "name": "WebSockets", "icon": "socketdotio" },
+          { "name": "Socket.IO", "icon": "socketdotio" }
+        ]
+      },
+      {
+        "name": "Database",
+        "icon": "database",
+        "skills": [
+          {
+            "name": "PostgreSQL",
+            "icon": "postgresql",
+            "featured": true
+          },
+          { "name": "MongoDB", "icon": "mongodb", "featured": true },
+          { "name": "Prisma ORM", "icon": "prisma", "featured": true },
+          { "name": "SQLAlchemy", "icon": "sqlalchemy" },
+          { "name": "Alembic", "icon": "database" },
+          { "name": "Redis", "icon": "redis" }
+        ]
+      },
+      {
+        "name": "AI & LLM",
+        "icon": "brain",
+        "skills": [
+          { "name": "OpenAI API", "icon": "openai", "featured": true },
+          {
+            "name": "Gemini API",
+            "icon": "googlegemini",
+            "featured": true
+          },
+          {
+            "name": "Prompt Engineering",
+            "icon": "promptengineering"
+          },
+          { "name": "Instructor", "icon": "brain" },
+          { "name": "AI Pipeline Design", "icon": "llm" }
+        ]
+      },
+      {
+        "name": "DevOps & Cloud",
+        "icon": "cloud",
+        "skills": [
+          { "name": "Docker", "icon": "docker", "featured": true },
+          {
+            "name": "AWS (Cognito, EC2, S3)",
+            "icon": "amazonwebservices",
+            "featured": true
+          },
+          { "name": "Railway", "icon": "railway" },
+          {
+            "name": "GitHub Actions",
+            "icon": "githubactions",
+            "featured": true
+          },
+          { "name": "Git", "icon": "git", "featured": true },
+          { "name": "RabbitMQ", "icon": "rabbitmq" },
+          { "name": "Celery", "icon": "celery" }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "enabled": true,
+    "heading": "Work Experience",
+    "subtitle": "My professional journey building production systems",
+    "items": [
+      {
+        "company": "mindO",
+        "role": "Full Stack Developer",
+        "startDate": "March 2024",
+        "endDate": "Present",
+        "employmentType": "Full-time",
+        "location": "Remote",
+        "description": "Developed browser extensions, AI-powered CRM analysis pipelines, and integrated scalable async processing workflows for robust enterprise applications.",
+        "achievements": [
+          "Developed a browser extension for LinkedIn using React.js and FastAPI backend integrated with Gemini API to scrape profiles and generate AI-powered outreach strategies, personality insights, and professional background analysis.",
+          "Reduced profile scraping time by 75% (~40s → 7–10s) by implementing asynchronous JavaScript scraping with parallel page processing.",
+          "Integrated AWS Cognito for secure user auth and Zoho Billing for subscription management (individual + enterprise plans).",
+          "Built an LLM-powered analysis pipeline using Python, FastAPI, PostgreSQL, SQLAlchemy to process lead records, enrich external business data, and auto-generate actionable sales intelligence reports.",
+          "Designed Celery + RabbitMQ + Redis workflows to handle bulk AI analysis of thousands of CRM leads without blocking API requests, managing LLM rate limits efficiently.",
+          "Integrated Zoho CRM APIs with OAuth 2.0 to retrieve leads, process through AI pipelines, and sync enriched data back into CRM fields automatically.",
+          "Built a React.js web console for account management, subscription upgrades, team collaboration, role-based access, and paginated analysis history dashboards.",
+          "Developed the company landing page using Astro with static site generation, achieving high Lighthouse scores and strong SEO performance.",
+          "Architected and deployed Hakura CRM in 2 weeks using ReactJS, NestJS, TypeScript, PostgreSQL, Prisma with JWT auth, RBAC, lead tracking, sales reporting, and an AI-powered news intelligence pipeline. Containerized with Docker and deployed on Railway."
+        ],
+        "technologies": [
+          "React.js",
+          "FastAPI",
+          "Python",
+          "PostgreSQL",
+          "SQLAlchemy",
+          "Docker",
+          "Gemini API",
+          "Celery",
+          "RabbitMQ",
+          "Redis",
+          "AWS Cognito",
+          "Zoho CRM API",
+          "Zoho Billing",
+          "OAuth 2.0",
+          "Astro",
+          "NestJS",
+          "TypeScript",
+          "Prisma",
+          "Railway"
+        ]
+      },
+      {
+        "company": "U R Star Technologies",
+        "role": "MERN Stack Intern",
+        "startDate": "January 2024",
+        "endDate": "March 2024",
+        "employmentType": "Internship",
+        "location": "Dehradun, India",
+        "description": "Contributed to a healthcare platform serving doctors and franchisees, building data visualization dashboards and scheduling modules.",
+        "achievements": [
+          "Contributed to a healthcare platform serving doctors and franchisees, building data visualization dashboards and scheduling modules.",
+          "Developed a Doctor Scheduling module and Franchisee Creation portal using React.js and Node.js.",
+          "Built interactive country-wise and state-wise product sales dashboards using React-Map and GeoJSON for geographic data visualization.",
+          "Enhanced dashboard functionality with new features improving operational efficiency for healthcare administrators."
+        ],
+        "technologies": [
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "React-Map",
+          "GeoJSON"
+        ]
+      }
+    ]
+  },
+
+  "projects": {
+    "enabled": true,
+    "heading": "Featured Projects",
+    "subtitle": "A selection of projects I've built across different domains, including enterprise and personal work",
+    "items": [
+      {
+        "title": "LinkedIn AI Chrome Extension",
+        "slug": "linkedin-ai-chrome-extension",
+        "featured": true,
+        "category": "Browser Extension / AI",
+        "description": "A browser extension for LinkedIn that scrapes profiles and generates AI-powered outreach strategies, personality insights, and professional background analysis.",
+        "problem": "Sales and recruitment professionals need quick, automated insights and personalized outreach strategies directly from LinkedIn without manual data entry.",
+        "highlights": [
+          "Reduced profile scraping time by 75% (~40s → 7–10s) by implementing asynchronous JavaScript scraping with parallel page processing.",
+          "Integrated AWS Cognito for secure user auth and Zoho Billing for subscription management (individual + enterprise plans)."
+        ],
+        "technologies": [
+          "React.js",
+          "FastAPI",
+          "Gemini API",
+          "AWS Cognito",
+          "Zoho Billing"
+        ],
+        "src": "/src/assets/linkedin-extension.webm",
+        "isImage": false,
+        "github": ""
+      },
+      {
+        "title": "Zoho CRM AI Intelligence Pipeline",
+        "slug": "zoho-crm-ai-pipeline",
+        "featured": true,
+        "category": "Backend / AI Pipelines",
+        "description": "An LLM-powered analysis pipeline that processes lead records, enriches external business data, and auto-generates actionable sales intelligence reports.",
+        "problem": "Processing and analyzing thousands of CRM leads manually is time-consuming, requiring an automated system that handles rate limits without blocking.",
+        "highlights": [
+          "Designed Celery + RabbitMQ + Redis workflows to handle bulk AI analysis of thousands of CRM leads efficiently.",
+          "Integrated Zoho CRM APIs with OAuth 2.0 to retrieve leads, process them, and automatically sync enriched data back into CRM fields."
+        ],
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "PostgreSQL",
+          "SQLAlchemy",
+          "Celery",
+          "RabbitMQ",
+          "Redis",
+          "Zoho CRM API"
+        ],
+        "src": "/src/assets/zoho-pipeline.webm",
+        "isImage": false,
+        "github": ""
+      },
+      {
+        "title": "Hakura CRM (Client Project)",
+        "slug": "hakura-crm",
+        "featured": true,
+        "category": "Enterprise Application",
+        "description": "A full-featured CRM system featuring lead tracking, sales reporting, revenue analytics, and an AI-powered news intelligence pipeline.",
+        "problem": "The client required a scalable, secure, and fully functional CRM with AI capabilities architected and deployed under a tight 2-week deadline.",
+        "highlights": [
+          "Architected and deployed the CRM in 2 weeks with JWT auth, RBAC, and integrated AI news intelligence.",
+          "Containerized the application with Docker and successfully deployed it on Railway."
+        ],
+        "technologies": [
+          "React.js",
+          "NestJS",
+          "TypeScript",
+          "PostgreSQL",
+          "Prisma",
+          "Docker",
+          "Railway"
+        ],
+        "src": "/src/assets/hakura-crm.png",
+        "isImage": true,
+        "github": ""
+      },
+      {
+        "title": "Healthcare Management Dashboards",
+        "slug": "healthcare-management-dashboards",
+        "featured": false,
+        "category": "Web Application",
+        "description": "Data visualization dashboards and scheduling modules for a healthcare platform serving doctors and franchisees.",
+        "problem": "Healthcare administrators needed an efficient portal to schedule doctors and visualize product sales geographically.",
+        "highlights": [
+          "Developed a Doctor Scheduling module and Franchisee Creation portal.",
+          "Built interactive country-wise and state-wise product sales dashboards using React-Map and GeoJSON."
+        ],
+        "technologies": ["React.js", "Node.js", "React-Map", "GeoJSON"],
+        "src": "/src/assets/healthcare-dashboard.webp",
+        "isImage": true,
+        "github": ""
+      },
+      {
+        "title": "CLIPLY - Note-Taking & Productivity App",
+        "slug": "cliply-productivity-app",
+        "featured": false,
+        "category": "Productivity",
+        "description": "A full-stack productivity application featuring rich-text note editing, file uploads, task management, and structured note organization.",
+        "problem": "Users need an organized platform to manage tasks and rich-text notes with persistent, secure storage.",
+        "highlights": [
+          "Built full-stack app using NextJS, FastAPI, PostgreSQL, and SQLAlchemy.",
+          "Developed RESTful APIs for notes, tasks, and file management with authentication and data validation."
+        ],
+        "technologies": [
+          "Next.js",
+          "FastAPI",
+          "PostgreSQL",
+          "SQLAlchemy",
+          "Tailwind CSS"
+        ],
+        "src": "/src/assets/cliply.webp",
+        "isImage": true,
+        "github": "https://github.com/anupbh77/Cliply"
+      },
+      {
+        "title": "DESTIFY - Hotel Booking Platform",
+        "slug": "destify-hotel-booking",
+        "featured": false,
+        "category": "Web Application",
+        "description": "Full-stack hotel booking web app with advanced filtering, booking management, and hotel listings.",
+        "problem": "Travelers require a seamless hotel booking experience with secure authentication and robust filtering options.",
+        "highlights": [
+          "Implemented NextAuth for secure authentication and Prisma ORM with MongoDB Atlas for type-safe operations.",
+          "Designed responsive UI with Tailwind CSS, Shadcn/UI, and Radix UI components."
+        ],
+        "technologies": ["Next.js", "Prisma", "MongoDB Atlas", "Tailwind CSS"],
+        "src": "/src/assets/destify.webp",
+        "isImage": true,
+        "github": "https://github.com/anupbh77/Destify"
+      },
+      {
+        "title": "BINGO-25 - Real-Time Multiplayer Game",
+        "slug": "bingo-25-multiplayer",
+        "featured": false,
+        "category": "Gaming",
+        "description": "Real-time multiplayer Bingo game featuring live matchmaking and private room creation.",
+        "problem": "Players need a responsive and interactive casual gaming platform for cross-device multiplayer experiences.",
+        "highlights": [
+          "Developed with Socket.IO for live matchmaking and auto-matchmaking with strangers.",
+          "Built fully responsive UI optimized for mobile and desktop experiences."
+        ],
+        "technologies": ["React.js", "WebSockets", "Socket.IO", "Node.js"],
+        "src": "/src/assets/bingo25.webp",
+        "isImage": true,
+        "github": "https://github.com/anupbh77/bingo-build"
+      }
+    ]
+  },
+  "education": {
+    "enabled": true,
+    "heading": "Education",
+    "subtitle": "Academic background and continuous learning journey",
+    "items": [
+      {
+        "degree": "Bachelor of Computer Application (BCA)",
+        "institution": "Graphic Era Hill University (GEHU)",
+        "startDate": "2021",
+        "endDate": "2024",
+        "location": "Dehradun, Uttarakhand, India",
+        "description": "Completed undergraduate degree in Computer Applications.",
+        "specialization": "Computer Applications",
+        "coursework": [
+          "Software Engineering",
+          "Web Development",
+          "Database Management"
+        ],
+        "achievements": ["Class 12th - 79% (2019-2021)", "Class 10th - 86%"]
+      }
+    ]
+  },
+  "certifications": {
+    "enabled": false,
+    "heading": "Certifications",
+    "items": []
+  },
+  "personal": {
+    "enabled": true,
+    "heading": "Personal Details",
+    "subtitle": "Get to know me better",
+    "fields": [
+      {
+        "label": "Full Name",
+        "value": "Anup Bhaumik",
+        "type": "text",
+        "icon": "user"
+      },
+      {
+        "label": "Title",
+        "value": "Full Stack Gen AI Developer",
+        "type": "badge",
+        "icon": "badge"
+      },
+      {
+        "label": "Location",
+        "value": "Dehradun, India",
+        "type": "text",
+        "icon": "mapPin"
+      },
+      {
+        "label": "Email",
+        "value": "anupbhaumik44@gmail.com",
+        "type": "email",
+        "icon": "mail"
+      },
+      {
+        "label": "Phone",
+        "value": "+91-9557848703",
+        "type": "phone",
+        "icon": "phone"
+      },
+      {
+        "label": "Availability",
+        "value": "Open to opportunities",
+        "type": "badge",
+        "icon": "clock"
+      },
+      {
+        "label": "Work Preference",
+        "value": "Remote / On-site",
+        "type": "badge",
+        "icon": "monitor"
+      }
+    ]
+  },
+  "contact": {
+    "enabled": true,
+    "heading": "Let's Work Together",
+    "subtitle": "Have a project in mind? Let's discuss how I can help.",
+    "ctaMessage": "I'm currently available for new projects and collaborations. Whether you need a full-stack application, AI integration, or system architecture consultation — I'd love to hear about your project.",
+    "email": "anupbhaumik44@gmail.com",
+    "availabilityStatus": "available",
+    "availabilityText": "Available for new projects",
+    "formEnabled": true,
+    "formFields": {
+      "name": {
+        "label": "Your Name",
+        "placeholder": "John Doe",
+        "required": true
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "john@example.com",
+        "required": true
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Project Inquiry",
+        "required": true
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell me about your project...",
+        "required": true
+      }
+    },
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com",
+        "icon": "linkedin"
+      }
+    ]
+  },
+  "footer": {
+    "enabled": true,
+    "name": "Anup Bhaumik",
+    "tagline": "Building the future, one line of code at a time.",
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com",
+        "icon": "github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com",
+        "icon": "linkedin"
+      }
+    ],
+    "copyright": "© 2026 Anup Bhaumik. All rights reserved.",
+    "showBackToTop": true
+  }
+}
