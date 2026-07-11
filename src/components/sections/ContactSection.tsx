@@ -110,7 +110,7 @@ export const ContactSection = ({ data }: ContactSectionProps) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading title={data.heading} subtitle={data.subtitle} />
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+        <div className=" mx-auto flex justify-center items-center w-[50%] gap-12 lg:gap-16">
           {/* Left - Info */}
           <motion.div
             variants={staggerContainer}
@@ -118,7 +118,7 @@ export const ContactSection = ({ data }: ContactSectionProps) => {
             whileInView="visible"
             viewport={{ once: true }}
           >
-            <motion.div variants={staggerItem} className="mb-8">
+            <motion.div variants={staggerItem} className="mb-8 flex flex-col">
               <p className="text-base text-muted-foreground leading-relaxed mb-8">
                 {data.ctaMessage}
               </p>
@@ -160,220 +160,7 @@ export const ContactSection = ({ data }: ContactSectionProps) => {
             </motion.div>
           </motion.div>
 
-          {/* Right - Form */}
-          {data.formEnabled && (
-            <motion.div
-              variants={fadeUp}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              <form
-                onSubmit={handleSubmit}
-                className="bg-card/50 backdrop-blur-sm border border-border/60 rounded-2xl p-6 md:p-8"
-              >
-                <AnimatePresence mode="wait">
-                  {submitStatus === "success" ? (
-                    <motion.div
-                      initial={{ opacity: 0, scale: 0.9 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      exit={{ opacity: 0 }}
-                      className="flex flex-col items-center justify-center py-12 text-center"
-                    >
-                      <div className="w-16 h-16 rounded-full bg-emerald-500/10 flex items-center justify-center mb-4">
-                        <CheckCircle
-                          size={32}
-                          className="text-emerald-500"
-                        />
-                      </div>
-                      <h3 className="text-xl font-semibold text-foreground mb-2">
-                        Message Sent!
-                      </h3>
-                      <p className="text-sm text-muted-foreground mb-6">
-                        Thank you for reaching out. I'll get back to you soon.
-                      </p>
-                      <motion.button
-                        type="button"
-                        onClick={() => setSubmitStatus("idle")}
-                        whileHover={{ scale: 1.02 }}
-                        whileTap={{ scale: 0.98 }}
-                        className="px-6 py-2.5 rounded-xl bg-secondary text-foreground font-medium hover:bg-secondary/80 transition-colors duration-200"
-                      >
-                        Send Another Message
-                      </motion.button>
-                    </motion.div>
-                  ) : (
-                    <motion.div
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                      className="space-y-5"
-                    >
-                      {/* Name */}
-                      <div>
-                        <label
-                          htmlFor="name"
-                          className="block text-sm font-medium text-foreground mb-1.5"
-                        >
-                          {data.formFields.name.label}
-                          {data.formFields.name.required && (
-                            <span className="text-red-500 ml-1">*</span>
-                          )}
-                        </label>
-                        <input
-                          type="text"
-                          id="name"
-                          name="name"
-                          value={formData.name}
-                          onChange={handleChange}
-                          placeholder={data.formFields.name.placeholder}
-                          className={`w-full px-4 py-3 rounded-xl bg-secondary/50 border ${
-                            errors.name
-                              ? "border-red-500/50 focus:border-red-500"
-                              : "border-border/50 focus:border-primary/50"
-                          } text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all duration-200`}
-                        />
-                        {errors.name && (
-                          <p className="mt-1.5 text-sm text-red-500 flex items-center gap-1">
-                            <AlertCircle size={14} />
-                            {errors.name}
-                          </p>
-                        )}
-                      </div>
 
-                      {/* Email */}
-                      <div>
-                        <label
-                          htmlFor="email"
-                          className="block text-sm font-medium text-foreground mb-1.5"
-                        >
-                          {data.formFields.email.label}
-                          {data.formFields.email.required && (
-                            <span className="text-red-500 ml-1">*</span>
-                          )}
-                        </label>
-                        <input
-                          type="email"
-                          id="email"
-                          name="email"
-                          value={formData.email}
-                          onChange={handleChange}
-                          placeholder={data.formFields.email.placeholder}
-                          className={`w-full px-4 py-3 rounded-xl bg-secondary/50 border ${
-                            errors.email
-                              ? "border-red-500/50 focus:border-red-500"
-                              : "border-border/50 focus:border-primary/50"
-                          } text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all duration-200`}
-                        />
-                        {errors.email && (
-                          <p className="mt-1.5 text-sm text-red-500 flex items-center gap-1">
-                            <AlertCircle size={14} />
-                            {errors.email}
-                          </p>
-                        )}
-                      </div>
-
-                      {/* Subject */}
-                      <div>
-                        <label
-                          htmlFor="subject"
-                          className="block text-sm font-medium text-foreground mb-1.5"
-                        >
-                          {data.formFields.subject.label}
-                          {data.formFields.subject.required && (
-                            <span className="text-red-500 ml-1">*</span>
-                          )}
-                        </label>
-                        <input
-                          type="text"
-                          id="subject"
-                          name="subject"
-                          value={formData.subject}
-                          onChange={handleChange}
-                          placeholder={data.formFields.subject.placeholder}
-                          className={`w-full px-4 py-3 rounded-xl bg-secondary/50 border ${
-                            errors.subject
-                              ? "border-red-500/50 focus:border-red-500"
-                              : "border-border/50 focus:border-primary/50"
-                          } text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all duration-200`}
-                        />
-                        {errors.subject && (
-                          <p className="mt-1.5 text-sm text-red-500 flex items-center gap-1">
-                            <AlertCircle size={14} />
-                            {errors.subject}
-                          </p>
-                        )}
-                      </div>
-
-                      {/* Message */}
-                      <div>
-                        <label
-                          htmlFor="message"
-                          className="block text-sm font-medium text-foreground mb-1.5"
-                        >
-                          {data.formFields.message.label}
-                          {data.formFields.message.required && (
-                            <span className="text-red-500 ml-1">*</span>
-                          )}
-                        </label>
-                        <textarea
-                          id="message"
-                          name="message"
-                          value={formData.message}
-                          onChange={handleChange}
-                          placeholder={data.formFields.message.placeholder}
-                          rows={5}
-                          className={`w-full px-4 py-3 rounded-xl bg-secondary/50 border ${
-                            errors.message
-                              ? "border-red-500/50 focus:border-red-500"
-                              : "border-border/50 focus:border-primary/50"
-                          } text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all duration-200 resize-none`}
-                        />
-                        {errors.message && (
-                          <p className="mt-1.5 text-sm text-red-500 flex items-center gap-1">
-                            <AlertCircle size={14} />
-                            {errors.message}
-                          </p>
-                        )}
-                      </div>
-
-                      {/* Submit Error */}
-                      {submitStatus === "error" && (
-                        <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-sm text-red-500 flex items-center gap-2">
-                          <AlertCircle size={16} />
-                          Something went wrong. Please try again.
-                        </div>
-                      )}
-
-                      {/* Submit Button */}
-                      <motion.button
-                        type="submit"
-                        disabled={isSubmitting}
-                        whileHover={{ scale: 1.01 }}
-                        whileTap={{ scale: 0.99 }}
-                        className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-cyan-600 to-teal-600 text-white font-medium hover:from-cyan-500 hover:to-teal-500 shadow-lg shadow-cyan-500/25 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
-                      >
-                        {isSubmitting ? (
-                          <>
-                            <Loader2
-                              size={18}
-                              className="animate-spin"
-                            />
-                            Sending...
-                          </>
-                        ) : (
-                          <>
-                            <Send size={18} />
-                            Send Message
-                          </>
-                        )}
-                      </motion.button>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </form>
-            </motion.div>
-          )}
         </div>
       </div>
     </section>

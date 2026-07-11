@@ -586,12 +586,12 @@
     "socials": [
       {
         "name": "GitHub",
-        "url": "https://github.com",
+        "url": "https://github.com/anupbh77",
         "icon": "github"
       },
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com",
+        "url": "https://www.linkedin.com/in/anup-bhaumik/",
         "icon": "linkedin"
       }
     ]
@@ -603,16 +603,16 @@
     "socials": [
       {
         "name": "GitHub",
-        "url": "https://github.com",
+        "url": "https://github.com/anupbh77",
         "icon": "github"
       },
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com",
+        "url": "https://www.linkedin.com/in/anup-bhaumik/",
         "icon": "linkedin"
       }
     ],
-    "copyright": "© 2026 Anup Bhaumik. All rights reserved.",
+    "copyright": "",
     "showBackToTop": true
   }
 }
