@@ -41,7 +41,7 @@
     "logo": "Anup Bhaumik",
     "logoType": "text",
     "showResumeButton": true,
-    "resumeLink": "/src/assets/anup.pdf"
+    "resumeLink": "/anup.pdf"
   },
   "hero": {
     "enabled": true,
@@ -66,7 +66,7 @@
     },
     "resumeButton": {
       "text": "Download Resume",
-      "link": "/src/assets/anup.pdf"
+      "link": "/anup.pdf"
     },
     "socials": [
       {
@@ -352,7 +352,7 @@
           "AWS Cognito",
           "Zoho Billing"
         ],
-        "src": "/src/assets/linkedin-extension.webm",
+        "src": "/linkedin-extension.webm",
         "isImage": false,
         "github": ""
       },
@@ -377,7 +377,7 @@
           "Redis",
           "Zoho CRM API"
         ],
-        "src": "/src/assets/zoho-pipeline.webm",
+        "src": "/zoho-pipeline.webm",
         "isImage": false,
         "github": ""
       },
@@ -401,7 +401,7 @@
           "Docker",
           "Railway"
         ],
-        "src": "/src/assets/hakura-crm.png",
+        "src": "/hakura-crm.png",
         "isImage": true,
         "github": ""
       },
@@ -417,7 +417,7 @@
           "Built interactive country-wise and state-wise product sales dashboards using React-Map and GeoJSON."
         ],
         "technologies": ["React.js", "Node.js", "React-Map", "GeoJSON"],
-        "src": "/src/assets/healthcare-dashboard.webp",
+        "src": "/healthcare-dashboard.webp",
         "isImage": true,
         "github": ""
       },
@@ -439,7 +439,7 @@
           "SQLAlchemy",
           "Tailwind CSS"
         ],
-        "src": "/src/assets/cliply.webp",
+        "src": "/cliply.webp",
         "isImage": true,
         "github": "https://github.com/anupbh77/Cliply"
       },
@@ -455,7 +455,7 @@
           "Designed responsive UI with Tailwind CSS, Shadcn/UI, and Radix UI components."
         ],
         "technologies": ["Next.js", "Prisma", "MongoDB Atlas", "Tailwind CSS"],
-        "src": "/src/assets/destify.webp",
+        "src": "/destify.webp",
         "isImage": true,
         "github": "https://github.com/anupbh77/Destify"
       },
@@ -471,7 +471,7 @@
           "Built fully responsive UI optimized for mobile and desktop experiences."
         ],
         "technologies": ["React.js", "WebSockets", "Socket.IO", "Node.js"],
-        "src": "/src/assets/bingo25.webp",
+        "src": "/bingo25.webp",
         "isImage": true,
         "github": "https://github.com/anupbh77/bingo-build"
       }
